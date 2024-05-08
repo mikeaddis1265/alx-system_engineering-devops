@@ -8,11 +8,14 @@ while [ $num -le 20 ];
 do
     case $num in
         4)
-            echo "$num bad luck from China";;
+            echo "$num"
+            echo "bad luck from China";;
         9)
-            echo "$num bad luck from Japan";;
+            echo "$num"
+            echo "bad luck from Japan";;
         17)
-            echo "$num bad luck from Italy";;
+            echo "$num"
+            echo "bad luck from Italy";;
         *)
             echo "$num"
     esac
