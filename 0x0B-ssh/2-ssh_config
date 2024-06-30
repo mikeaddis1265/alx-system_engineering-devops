@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+nano ~/.ssh/config
+Host testhost
+    HostName 34.201.68.121
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
